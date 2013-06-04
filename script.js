@@ -1,5 +1,5 @@
 
-$(document).read(function(){
+$(document).ready(function(){
 var elems=document.getElementsByTagName("img");
     var rotate=jQuery.makeArray(elems);   
      for(var i=0;i<=rotate.length;i++)
