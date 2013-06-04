@@ -1,10 +1,9 @@
 
 $(document).ready(function(){
-var elems=document.getElementsByTagName("img");
-    var rotate=jQuery.makeArray(elems);   
+    var rotate=$('img');
      for(var i=0;i<=rotate.length;i++)
      {
-    $(rotate).fadeIn('slow').delay(1000).fadeOut('slow');
+        $(rotate).fadeIn('slow').delay(1000).fadeOut('slow');
      }
 
 });
