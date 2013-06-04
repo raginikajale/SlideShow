@@ -1,0 +1,22 @@
+<----jQuery------->
+$(document).read(function(){
+var elems=document.getElementsByTagName("img");
+    var rotate=jQuery.makeArray(elems);   
+     for(var i=0;i<=rotate.length;i++)
+     {
+    $(rotate).fadeIn('slow').delay(1000).fadeOut('slow');
+     }
+
+});
+
+<---html---->
+
+<!DOCTYPE html >
+<body>
+    <h3>Welcome to in-focus</h3>
+    <div id="slideshow">
+    <img id="first" src="http://in-focus.in/images/new_set/home/banner--1.jpg"></img>
+    <img id="second" src="http://in-focus.in/images/new_set/home/banner--2.jpg"></img>
+    <img id="third" src="http://in-focus.in/images/new_set/home/banner--3.jpg"></img>
+    </div>
+</body>
