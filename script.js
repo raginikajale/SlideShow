@@ -3,7 +3,7 @@ $(document).ready(function(){
     var current=0;
   setInterval(function () {
     $(arr[current]).fadeOut(1000,function(){
-            if(current==arr.length)
+            if(current==arr.length-1)
              {
                current=0;
              }
