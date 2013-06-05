@@ -3,9 +3,9 @@ $(document).ready(function(){
     var current=0;
   setInterval(function () {
     $(arr[current]).fadeOut(1000,function(){
-             
-             $(arr[current+1]).fadeIn(2000);
-             $(arr[current+1]).fadeOut(2000);
+             current=current+1;
+             $(arr[current]).fadeIn(2000);
+             $(arr[current]).fadeOut(2000);
              if(current==arr.length)
              {
              	current=0;
