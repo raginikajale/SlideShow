@@ -7,7 +7,10 @@ $(document).ready(function(){
              {
                current=0;
              }
+             else
+             {
              current=current+1;
+             }
              $(arr[current]).fadeIn(2000);           
              } )}   
           , 4000);
